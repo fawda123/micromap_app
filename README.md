@@ -1,6 +1,8 @@
 
 ### Micromap app
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.160579.svg)](https://doi.org/10.5281/zenodo.160579)
+
 This repository contains materials for the R Shiny micromap application.  Click the screenshot below to visit the app.
 
 ### Screenshot
