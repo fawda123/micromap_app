@@ -1,13 +1,9 @@
 library(shiny)
 library(shinythemes)
-library(micromap)
 library(datasets)
 
 # data
 statdat <- state.x77
-
-# spatial data
-data(USstates)
 
 # variables
 vrs <- colnames(statdat)
