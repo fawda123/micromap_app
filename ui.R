@@ -4,7 +4,6 @@ library(micromap)
 library(datasets)
 
 # data
-data(states)
 statdat <- state.x77
 
 # spatial data
