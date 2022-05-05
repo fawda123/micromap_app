@@ -8,11 +8,12 @@ statdat <- state.x77
 # spatial data
 data(USstates)
 
-shinyServer(function(input, output) {
+# define server for the application
+server <- function(input, output) {
    
   output$p1 <- renderPlot({
 
-    # include median value, gruopings
+    # include median value, groupings
     medval <- as.logical(input$medval)
     grps <- input$grps
 
@@ -20,6 +21,7 @@ shinyServer(function(input, output) {
     vr1 <- input$vr1
     vr2 <- input$vr2
 
+    # name the variable for ordering
     ords <- input$ords
     ords <- gsub('Variable\\s', 'vr', ords)
     
@@ -48,4 +50,4 @@ shinyServer(function(input, output) {
 
   })
   
-})
+}

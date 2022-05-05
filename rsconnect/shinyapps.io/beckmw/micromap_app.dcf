@@ -5,7 +5,7 @@ account: beckmw
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 131335
-bundleId: 5871655
+bundleId: 5873125
 url: https://beckmw.shinyapps.io/micromap_app/
-when: 1651715634.94119
-lastSyncTime: 1651715634.94119
+when: 1651752875.55079
+lastSyncTime: 1651752875.55079
