@@ -2,11 +2,8 @@ library(shiny)
 library(shinythemes)
 library(datasets)
 
-# data
-statdat <- state.x77
-
 # variables
-vrs <- colnames(x = statdat)
+vrs <- colnames(x = state.x77)
 
 # define ui for application
 ui <- fluidPage(
